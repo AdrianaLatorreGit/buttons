@@ -1,0 +1,52 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #eee;
+  padding: 0 15px;
+}
+
+h1 {
+  margin: 30px;
+  text-align: center;
+}
+
+h1, h2 {
+  text-transform: uppercase;
+  letter-spacing: 0.3em;
+  font-family: sans-serif;
+  color: #125b50;
+}
+
+section {
+  max-width: 1240px;
+  background: #fff;
+  margin: 10px auto;
+  border: 1px solid #aaa;
+  padding: 30px;
+  border-radius: 5px;
+  box-shadow: 1px 3px 5px rgb(170, 170, 170);
+}
+section h2 {
+  margin-bottom: 20px;
+}
+section button {
+  margin: 15px;
+}
+section .btn {
+  padding: 15px 35px;
+  border: none;
+  border-radius: 30px;
+  font-size: 18px;
+  color: #aaa;
+  cursor: pointer;
+  letter-spacing: 1px;
+}
+section .btn--actived {
+  background: #069a8e;
+  color: #fff;
+  box-shadow: 1px 1px 1px rgb(56, 51, 51);
+}/*# sourceMappingURL=style.css.map */
